@@ -12,15 +12,21 @@
     <!-- NavBar -->
     <nav class="navbar navbar-light bg-light sticky-top">
       <div class="container-fluid">
+
         <!-- logo and title -->
         <div class="d-flex align-items-center gap-1">
-          <i class="fa-brands fa-instagram fa-lg me-1"></i>
-          <h4 class="mb-0">Instagram</h4>
+          <i class="fa-brands fa-instagram fa-xl me-2"></i>
+          <h4 class="d-none d-sm-inline mb-0">Instagram</h4>
         </div>
+
         <!-- Action buttons -->
         <div class="d-flex align-items-center gap-2 ">
-          <!-- Modal Boton -->
-          <button type="button" class="btn btn-success  " data-bs-toggle="modal" data-bs-target="#modalCreatePost" data-bs-whatever="@mdo">Create a new post</button>
+          <!-- Modal button -->
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalCreatePost" data-bs-whatever="@mdo">
+            <span class="d-none d-sm-inline">Create a new post</span> 
+            <span class="d-inline d-sm-none">New Post</span> 
+          </button>
+
           <!-- Dropdown -->
           <div class="btn-group">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-gear"></i></button>
@@ -32,13 +38,14 @@
               <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
             </ul>
           </div>
+
         </div>
       </div>
     </nav>
 
     <!--Modal Body-->
     <div class="modal fade" id="modalCreatePost" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
+      <div class="modal-dialog w-75 mx-auto">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
@@ -49,8 +56,8 @@
               <div class="mb-3">
                 <label for="message-text" class="col-form-label">Caption:</label>
                 <textarea class="form-control mb-3" id="message-text"></textarea>
-                <button class="btn bg-light border"><i class="fa-solid fa-camera"></i></button>
-                <button class="btn bg-light border"><i class="fa-solid fa-location-dot"></i></button>
+                <button type="button" class="btn bg-light border"><i class="fa-solid fa-camera"></i></button>
+                <button type="button" class="btn bg-light border"><i class="fa-solid fa-location-dot"></i></button>
               </div>
             </form>
           </div>
@@ -61,8 +68,10 @@
         </div>
       </div>
     </div>
-    <!-- View selector -->
+
+    <!-- View selector-->
     <div class="container-fluid">
+
       <nav>
         <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
           <button class="nav-link active" id="nav-cells-tab" data-bs-toggle="tab" data-bs-target="#nav-cells" type="button" role="tab" aria-controls="nav-cells" aria-selected="true">
@@ -73,138 +82,149 @@
           </button>
         </div>
       </nav>
+
       <!-- View Body -->
       <div class="tab-content" id="nav-tabContent">
+
         <!-- Cell table view -->
         <div class="mt-2 tab-pane fade show active" id="nav-cells" role="tabpanel" aria-labelledby="nav-cells-tab">
           <div class="row g-2 mb-2">
-            <div class="col-12 col-sm-6 col-md-4">
-              <img src="https://picsum.photos/300/300?random=1" class="img-fluid w-100" alt="" />
+            <div class="col-11 col-sm-6 col-md-4 mx-auto">
+              <img src="https://picsum.photos/300/300?random=1" class="img-fluid w-100" alt="Photo Example" />
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-              <img src="https://picsum.photos/300/300?random=2" class="img-fluid w-100" alt="" />
+            <div class="col-11 col-sm-6 col-md-4 mx-auto">
+              <img src="https://picsum.photos/300/300?random=2" class="img-fluid w-100" alt="Photo Example" />
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-              <img src="https://picsum.photos/300/300?random=3" class="img-fluid w-100" alt="" />
+            <div class="col-11 col-sm-6 col-md-4 mx-auto">
+              <img src="https://picsum.photos/300/300?random=3" class="img-fluid w-100" alt="Photo Example" />
             </div>
-          
-          
-            <div class="col-12 col-sm-6 col-md-4">
-              <img src="https://picsum.photos/300/300?random=4" class="img-fluid w-100" alt="" />
+            <div class="col-11 col-sm-6 col-md-4 mx-auto">
+              <img src="https://picsum.photos/300/300?random=4" class="img-fluid w-100" alt="Photo Example" />
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-              <img src="https://picsum.photos/300/300?random=5" class="img-fluid w-100" alt="" />
+            <div class="col-11 col-sm-6 col-md-4 mx-auto">
+              <img src="https://picsum.photos/300/300?random=5" class="img-fluid w-100" alt="Photo Example" />
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-              <img src="https://picsum.photos/300/300?random=6" class="img-fluid w-100" alt="" />
+            <div class="col-11 col-sm-6 col-md-4 mx-auto">
+              <img src="https://picsum.photos/300/300?random=6" class="img-fluid w-100" alt="Photo Example" />
             </div>
           
-            <div class="col-12 col-sm-6 col-md-4">
-              <img src="https://picsum.photos/300/300?random=7" class="img-fluid w-100" alt="" />
+            <div class="col-11 col-sm-6 col-md-4 mx-auto">
+              <img src="https://picsum.photos/300/300?random=7" class="img-fluid w-100" alt="Photo Example" />
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-              <img src="https://picsum.photos/300/300?random=8" class="img-fluid w-100" alt="" />
+            <div class="col-11 col-sm-6 col-md-4 mx-auto">
+              <img src="https://picsum.photos/300/300?random=8" class="img-fluid w-100" alt="Photo Example" />
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-              <img src="https://picsum.photos/300/300?random=9" class="img-fluid w-100" alt="" />
+            <div class="col-11 col-sm-6 col-md-4 mx-auto">
+              <img src="https://picsum.photos/300/300?random=9" class="img-fluid w-100" alt="Photo Example" />
             </div>
           </div>
         </div>
+
         <!-- column view body -->
         <div class="tab-pane fade  mt-3" id="nav-square" role="tabpanel" aria-labelledby="nav-square-tab">
-          <div class="container-fluid d-flex flex-column align-items-center">
-            <div class="card mb-4">
+          <div class=" d-flex flex-column align-items-center">
+            <div class="card mb-4 col-11 col-sm-8 col-md-6 mx-auto">
               <div class="ps-1 pe-3 d-flex justify-content-between align-items-center">
                 <h3>Title #1</h3>
                 <span><b>1/9</b></span>
               </div>
               <img src="https://picsum.photos/300/300?random=1" class="card-img-top" alt="..." />
               <div class="card-body">
+                <p class="mb-0 p-1"><b>### Likes</b></p>
                 <p class="card-text p-1">This is an example of very good photo that you can post on instagram</p>
               </div>
             </div>
-            <div class="card mb-4">
+            <div class="card mb-4 col-11 col-sm-8 col-md-6 mx-auto">
               <div class="ps-1 pe-3 d-flex justify-content-between align-items-center">
                 <h3>Title #2</h3>
                 <span><b>2/9</b></span>
               </div>
               <img src="https://picsum.photos/300/300?random=2" class="card-img-top" alt="..." />
               <div class="card-body">
+                <p class="mb-0 p-1"><b>### Likes</b></p>
                 <p class="card-text p-1">This is an example of very good photo that you can post on instagram</p>
               </div>
             </div>
-            <div class="card mb-4">
+            <div class="card mb-4 col-11 col-sm-8 col-md-6 mx-auto">
               <div class="ps-1 pe-3 d-flex justify-content-between align-items-center">
                 <h3>Title #3</h3>
                 <span><b>3/9</b></span>
               </div>
               <img src="https://picsum.photos/300/300?random=3" class="card-img-top" alt="..." />
               <div class="card-body">
+                <p class="mb-0 p-1"><b>### Likes</b></p>
                 <p class="card-text p-1">This is an example of very good photo that you can post on instagram</p>
               </div>
             </div>
-            <div class="card mb-4">
+            <div class="card mb-4 col-11 col-sm-8 col-md-6 mx-auto">
               <div class="ps-1 pe-3 d-flex justify-content-between align-items-center">
                 <h3>Title #4</h3>
                 <span><b>4/9</b></span>
               </div>
               <img src="https://picsum.photos/300/300?random=4" class="card-img-top" alt="..." />
               <div class="card-body">
+                <p class="mb-0 p-1"><b>### Likes</b></p>
                 <p class="card-text p-1">This is an example of very good photo that you can post on instagram</p>
               </div>
             </div>
-            <div class="card mb-4">
+            <div class="card mb-4 col-11 col-sm-8 col-md-6 mx-auto">
               <div class="ps-1 pe-3 d-flex justify-content-between align-items-center">
                 <h3>Title #5</h3>
                 <span><b>5/9</b></span>
               </div>
               <img src="https://picsum.photos/300/300?random=5" class="card-img-top" alt="..." />
               <div class="card-body">
+                <p class="mb-0 p-1"><b>### Likes</b></p>
                 <p class="card-text p-1">This is an example of very good photo that you can post on instagram</p>
               </div>
             </div>
-            <div class="card mb-4">
+            <div class="card mb-4 col-11 col-sm-8 col-md-6 mx-auto">
               <div class="ps-1 pe-3 d-flex justify-content-between align-items-center">
                 <h3>Title #6</h3>
                 <span><b>6/9</b></span>
               </div>
               <img src="https://picsum.photos/300/300?random=6" class="card-img-top" alt="..." />
               <div class="card-body">
+                <p class="mb-0 p-1"><b>### Likes</b></p>
                 <p class="card-text p-1">This is an example of very good photo that you can post on instagram</p>
               </div>
             </div>
-            <div class="card mb-4">
+            <div class="card mb-4 col-11 col-sm-8 col-md-6 mx-auto">
               <div class="ps-1 pe-3 d-flex justify-content-between align-items-center">
                 <h3>Title #7</h3>
                 <span><b>7/9</b></span>
               </div>
               <img src="https://picsum.photos/300/300?random=7" class="card-img-top" alt="..." />
               <div class="card-body">
+                <p class="mb-0 p-1"><b>### Likes</b></p>
                 <p class="card-text p-1">This is an example of very good photo that you can post on instagram</p>
               </div>
             </div>
-            <div class="card mb-4">
+            <div class="card mb-4 col-11 col-sm-8 col-md-6 mx-auto">
               <div class="ps-1 pe-3 d-flex justify-content-between align-items-center">
                 <h3>Title #8</h3>
                 <span><b>8/9</b></span>
               </div>
               <img src="https://picsum.photos/300/300?random=8" class="card-img-top" alt="..." />
               <div class="card-body">
+                <p class="mb-0 p-1"><b>### Likes</b></p>
                 <p class="card-text p-1">This is an example of very good photo that you can post on instagram</p>
               </div>
             </div>
-            <div class="card mb-4">
+            <div class="card mb-4 col-11 col-sm-8 col-md-6 mx-auto">
               <div class="ps-1 pe-3 d-flex justify-content-between align-items-center">
                 <h3>Title #9</h3>
                 <span><b>9/9</b></span>
               </div>
               <img src="https://picsum.photos/300/300?random=9" class="card-img-top" alt="..." />
               <div class="card-body">
+                <p class="mb-0 p-1"><b>### Likes</b></p>
                 <p class="card-text p-1">This is an example of very good photo that you can post on instagram</p>
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

@@ -1,30 +1,29 @@
-# HTML Hello
+# Instagram Photo Feed Clone (Bootstrap)
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+Este es un proyecto de práctica que replica la interfaz de usuario de Instagram utilizando **HTML5**, **CSS3 (Custom Properties)** y **Bootstrap 5**. El objetivo principal fue dominar el sistema de grillas, componentes interactivos como Modals y Tabs, y el manejo de diseño responsivo.
 
-> There is a video tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+## 🚀 Características
 
-## What to do next?
+- **Diseño Responsivo:** Layout adaptativo que cambia de una cuadrícula de 3 columnas (PC) a 2 (Tablet) y 1 (Móvil).
+- **Selector de Vista:** Alternancia entre vista de "Feed de Cuadrícula" y "Vista de Desplazamiento" usando Bootstrap Tabs.
+- **Creación de Post:** Modal funcional integrado con atributos de accesibilidad.
+- **Scroll Estable:** Implementación de `scrollbar-gutter: stable` para evitar saltos visuales en el layout.
+- **Menú de Configuración:** Dropdown alineado dinámicamente.
 
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+## 🛠️ Tecnologías utilizadas
 
-```bash
-$ pip3 install flask && python3 server.py
-```
+* [Bootstrap 5](https://getbootstrap.com/) - Framework de UI.
+* [FontAwesome](https://fontawesome.com/) - Iconografía profesional.
+* [Lorem Picsum](https://picsum.photos/) - Imágenes de marcador de posición.
+* CSS3 con enfoque en **Flexbox**.
 
-- You can create as many HTML files as you want.
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+## 📸 Capturas de Pantalla
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+> [!TIP]
+> Puedes añadir aquí capturas de tu proyecto para mostrar cómo se ve en móvil vs escritorio.
 
-### Contributors
+## 🔧 Instalación y Uso
 
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
-
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
+1. Clona este repositorio:
+   ```bash
+   git clone [https://github.com/tu-usuario/instagram-clone-bootstrap.git](https://github.com/tu-usuario/instagram-clone-bootstrap.git)
