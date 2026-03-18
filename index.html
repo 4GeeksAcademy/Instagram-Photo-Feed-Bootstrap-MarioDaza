@@ -1,6 +1,6 @@
 <!doctype html>
-<html lang="en" style="overflow-y: scroll !important;">
-  <!-- style="overflow-y: scroll !important;" -->
+<html lang="en" style="scrollbar-gutter: stable both-edges;">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,14 +13,14 @@
     <nav class="navbar navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <!-- logo and title -->
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center gap-1">
           <i class="fa-brands fa-instagram fa-lg me-1"></i>
           <h4 class="mb-0">Instagram</h4>
         </div>
         <!-- Action buttons -->
-        <div class="d-flex align-items-center gap-2">
+        <div class="d-flex align-items-center gap-2 ">
           <!-- Modal Boton -->
-          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create a new post</button>
+          <button type="button" class="btn btn-success  " data-bs-toggle="modal" data-bs-target="#modalCreatePost" data-bs-whatever="@mdo">Create a new post</button>
           <!-- Dropdown -->
           <div class="btn-group">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-gear"></i></button>
@@ -37,7 +37,7 @@
     </nav>
 
     <!--Modal Body-->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalCreatePost" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -78,35 +78,34 @@
         <!-- Cell table view -->
         <div class="mt-2 tab-pane fade show active" id="nav-cells" role="tabpanel" aria-labelledby="nav-cells-tab">
           <div class="row g-2 mb-2">
-            <div class="col-4">
+            <div class="col-12 col-sm-6 col-md-4">
               <img src="https://picsum.photos/300/300?random=1" class="img-fluid w-100" alt="" />
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-6 col-md-4">
               <img src="https://picsum.photos/300/300?random=2" class="img-fluid w-100" alt="" />
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-6 col-md-4">
               <img src="https://picsum.photos/300/300?random=3" class="img-fluid w-100" alt="" />
             </div>
-          </div>
-          <div class="row g-2 mb-2">
-            <div class="col-4">
+          
+          
+            <div class="col-12 col-sm-6 col-md-4">
               <img src="https://picsum.photos/300/300?random=4" class="img-fluid w-100" alt="" />
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-6 col-md-4">
               <img src="https://picsum.photos/300/300?random=5" class="img-fluid w-100" alt="" />
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-6 col-md-4">
               <img src="https://picsum.photos/300/300?random=6" class="img-fluid w-100" alt="" />
             </div>
-          </div>
-          <div class="row g-2 mb-2">
-            <div class="col-4">
+          
+            <div class="col-12 col-sm-6 col-md-4">
               <img src="https://picsum.photos/300/300?random=7" class="img-fluid w-100" alt="" />
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-6 col-md-4">
               <img src="https://picsum.photos/300/300?random=8" class="img-fluid w-100" alt="" />
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-6 col-md-4">
               <img src="https://picsum.photos/300/300?random=9" class="img-fluid w-100" alt="" />
             </div>
           </div>
