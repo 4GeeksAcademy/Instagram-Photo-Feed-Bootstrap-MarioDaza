@@ -12,18 +12,17 @@ Este es un proyecto de práctica que replica la interfaz de usuario de Instagram
 
 ## 🛠️ Tecnologías utilizadas
 
-* [Bootstrap 5](https://getbootstrap.com/) - Framework de UI.
-* [FontAwesome](https://fontawesome.com/) - Iconografía profesional.
-* [Lorem Picsum](https://picsum.photos/) - Imágenes de marcador de posición.
-* CSS3 con enfoque en **Flexbox**.
+- [Bootstrap 5](https://getbootstrap.com/) - Framework de UI.
+- [FontAwesome](https://fontawesome.com/) - Iconografía profesional.
+- [Lorem Picsum](https://picsum.photos/) - Imágenes de marcador de posición.
+- CSS3 con enfoque en **Flexbox**.
 
 ## 📸 Capturas de Pantalla
 
-> [!TIP]
-> Puedes añadir aquí capturas de tu proyecto para mostrar cómo se ve en móvil vs escritorio.
+<!-- <img src="assets/img/CellsView.png" width="300" style="margin: 5px;" alt="Grid">
+<img src="assets/img/ColumnView.png" width="300" style="margin: 5px;" alt="Feed">
+<img src="assets/img/Modal.png" width="300" style="margin: 5px;" alt="Modal PC">
+<img src="assets/img/Dropdown.png" width="300" style="margin: 5px;" alt="Dropdown">
+<img src="assets/img/ModTablet.png" width="300" height="300" style="margin: 5px;" alt="Tablet">
+<img src="assets/img/ModPhone.png" width="300" height="300" style="margin: 5px;" alt="Phone"> -->
 
-## 🔧 Instalación y Uso
-
-1. Clona este repositorio:
-   ```bash
-   git clone [https://github.com/tu-usuario/instagram-clone-bootstrap.git](https://github.com/tu-usuario/instagram-clone-bootstrap.git)
