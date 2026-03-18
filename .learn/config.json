@@ -57,62 +57,18 @@
     "exercises": [
         {
             "position": 0,
-            "path": "./",
-            "slug": "default-index",
-            "translations": {
-                "cn": "README.cn.md",
-                "es": "README.es.md",
-                "us": "README.md"
-            },
-            "language": "html",
-            "entry": "index.html",
-            "title": "default-index",
+            "path": "assets",
+            "slug": "assets",
+            "translations": {},
+            "language": null,
+            "entry": null,
+            "title": "assets",
             "graded": false,
             "files": [
                 {
-                    "path": ".//.git",
-                    "name": ".git",
+                    "path": "assets/img",
+                    "name": "img",
                     "hidden": true
-                },
-                {
-                    "path": ".//.learn",
-                    "name": ".learn",
-                    "hidden": true
-                },
-                {
-                    "path": ".//.vscode",
-                    "name": ".vscode",
-                    "hidden": true
-                },
-                {
-                    "path": ".//index.html",
-                    "name": "index.html",
-                    "hidden": false
-                },
-                {
-                    "path": ".//learn.json",
-                    "name": "learn.json",
-                    "hidden": true
-                },
-                {
-                    "path": ".//README.cn.md",
-                    "name": "README.cn.md",
-                    "hidden": true
-                },
-                {
-                    "path": ".//README.es.md",
-                    "name": "README.es.md",
-                    "hidden": true
-                },
-                {
-                    "path": ".//README.md",
-                    "name": "README.md",
-                    "hidden": true
-                },
-                {
-                    "path": ".//server.py",
-                    "name": "server.py",
-                    "hidden": false
                 }
             ],
             "done": false
@@ -121,5 +77,5 @@
     "bugsLink": null,
     "videoSolutions": false,
     "localhostOnly": false,
-    "session": 6473084594008752000
+    "session": 5853096652702766000
 }

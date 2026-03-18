@@ -1,5 +1,8 @@
 {
   "default-index": {
     "us": "default-index"
+  },
+  "assets": {
+    "us": "assets"
   }
 }
