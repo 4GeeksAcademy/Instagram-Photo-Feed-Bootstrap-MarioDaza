@@ -7,7 +7,6 @@ Este es un proyecto de práctica que replica la interfaz de usuario de Instagram
 - **Diseño Responsivo:** Layout adaptativo que cambia de una cuadrícula de 3 columnas (PC) a 2 (Tablet) y 1 (Móvil).
 - **Selector de Vista:** Alternancia entre vista de "Feed de Cuadrícula" y "Vista de Desplazamiento" usando Bootstrap Tabs.
 - **Creación de Post:** Modal funcional integrado con atributos de accesibilidad.
-- **Scroll Estable:** Implementación de `scrollbar-gutter: stable` para evitar saltos visuales en el layout.
 - **Menú de Configuración:** Dropdown alineado dinámicamente.
 
 ## 🛠️ Tecnologías utilizadas
