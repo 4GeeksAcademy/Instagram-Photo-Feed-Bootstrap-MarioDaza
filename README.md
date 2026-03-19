@@ -19,10 +19,10 @@ Este es un proyecto de práctica que replica la interfaz de usuario de Instagram
 
 ## 📸 Capturas de Pantalla
 
-<img src="assets/img/CellsView.png" width="300" style="margin: 5px;" alt="Grid">
-<img src="assets/img/ColumnView.png" width="300" style="margin: 5px;" alt="Feed">
-<img src="assets/img/Modal.png" width="300" style="margin: 5px;" alt="Modal PC">
-<img src="assets/img/Dropdown.png" width="300" style="margin: 5px;" alt="Dropdown">
-<img src="assets/img/ModTablet.png" width="300" height="300" style="margin: 5px;" alt="Tablet">
-<img src="assets/img/ModPhone.png" width="300" height="300" style="margin: 5px;" alt="Phone">
+<img src="assets/img/CellsView.png" width="300" style="margin: 2px;" alt="Grid">
+<img src="assets/img/ColumnView.png" width="300" style="margin: 2px;" alt="Feed">
+<img src="assets/img/Modal.png" width="300" style="margin: 2px;" alt="Modal PC">
+<img src="assets/img/Dropdown.png" width="300" style="margin: 2px;" alt="Dropdown">
+<img src="assets/img/ModTablet.png" width="300" height="300" style="margin: 2px;" alt="Tablet">
+<img src="assets/img/ModPhone.png" width="300" height="300" style="margin: 2px;" alt="Phone">
 
