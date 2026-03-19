@@ -19,8 +19,6 @@ Este es un proyecto de práctica que replica la interfaz de usuario de Instagram
 
 ## 📸 Capturas de Pantalla
 
-## 📸 Screenshots
-
 | Vista Grid | Vista Feed | Vista Modal (PC) |
 | :---: | :---: | :---: |
 | <img src="assets/img/CellsView.png" width="250"> | <img src="assets/img/ColumnView.png" width="250"> | <img src="assets/img/Modal.png" width="250"> |
